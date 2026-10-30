@@ -9,7 +9,7 @@ from aiohttp import web
 
 TOKEN = os.getenv("BOT_TOKEN", "")
 VOICES = {"madina": "uz-UZ-MadinaNeural", "sardor": "uz-UZ-SardorNeural"}
-MAX_CHARS = 1500
+MAX_CHARS = 4000
 
 bot = Bot(TOKEN)
 dp = Dispatcher()
